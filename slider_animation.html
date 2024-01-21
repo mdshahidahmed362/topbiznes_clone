@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+@font-face{
+	font-family:segoe_bold; 
+	src:url(fonts/segoeuib.ttf);
+}
+@font-face{
+	font-family:segoe_semibold; 
+	src:url(fonts/seguisb_semibold.ttf);
+}
+@font-face{
+	font-family:segoe_regular; 
+	src:url(fonts/segoeui_regular.ttf);
+}
+#container{ width:300px; height:60px; overflow:hidden;}
+#slider{ position:relative; width:300px; animation-direction:normal; height:180px; animation-name:slider;
+         animation-duration:15s; animation-iteration-count:infinite;}
+#one{float:left; width:300px; height:60px; border-radius:3%;}
+#heading{
+	width: 300px;
+	float: left;
+	height: 28px;
+	font-family: "segoe_semibold";
+	font-size: 22px;
+	color: #06F;
+}
+#sub_heading{
+	width: 300px;
+	float: left;
+	height: 32px;
+	font-family: "segoe_regular";
+	font-size: 13px;
+	color: #000;
+}
+
+@keyframes slider{
+	
+	0%{top:0px;}
+	26.66%{top:0px;}
+	33.33%{top:-60px;}
+	60%{top:-60px;}
+	66.66%{top:-120px;}
+	93.33%{top:-120px;}
+	100%{top:0px;}		
+}
+
+
+</style>
+</head>
+
+<body>
+<div id="container">
+    <div id="slider">
+       <div id="one">
+          <div id="heading">Investment Management</div>
+          <div id="sub_heading">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</div>
+       </div>
+       
+       <div id="one">
+          <div id="heading">World Wide Business</div>
+          <div id="sub_heading">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</div>
+       </div>
+       
+       <div id="one">
+          <div id="heading">Deep Research</div>
+          <div id="sub_heading">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</div>
+    
+    
+    </div>
+</div>
+</body>
+</html>
